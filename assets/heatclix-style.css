@@ -1,0 +1,339 @@
+.heatclix-design{
+    font-family: "Open Sans";
+    color: #595959;
+}
+
+#heatclix-fb{
+    background-image: url("img/fbicon.png");
+}
+
+#heatclix-fb:hover,
+#heatclix-fb:active,
+#heatclix-fb:focus{
+    background-image: url("img/fbicon-grau.png");
+}
+
+#heatclix-tw{
+    background-image: url("img/twittericon.png");
+}
+
+#heatclix-tw:hover,
+#heatclix-tw:active,
+#heatclix-tw:focus{
+    background-image: url("img/twittericon-grau.png");
+}
+
+#heatclix-in{
+    background-image: url("img/instaicon.png");
+}
+
+#heatclix-in:hover,
+#heatclix-in:active,
+#heatclix-in:focus{
+    background-image: url("img/instaicon-grau.png");
+}
+
+.heatclix-headline-container{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 30px;
+    min-height: 70px;
+}
+
+.heatclix-headline-img{
+    width: 320px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.heatclix-div-img,
+.heatclix-div-headline{
+    position: relative;
+    float: left;
+}
+
+.heatclix-div-headline h1{
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: #595959;
+    margin-left: 15px;
+}
+
+.heatclix-content-tracking-container{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 1.5% 2%;
+    width: 65%;
+    position: relative;
+    float: left;
+}
+
+.heatclix-content-info-container{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 1.5% 2%;
+    width: 26%;
+    position: relative;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.heatclix-content-tracking-container h1{
+    color: #595959;
+    font-weight: 600;
+}
+
+.heatclix-content-tracking-div{
+    margin-bottom: 50px;
+    margin-top: 43px;
+}
+
+.heatclix-content-tracking-div h2{
+    color: #595959;
+    margin-bottom: 5px;
+}
+
+.heatclix-content-tracking-div span{
+    color: #595959;
+    font-size: 16px;
+}
+
+.heatclix-underline{
+    color: #9a9a9a;
+}
+
+#project_name,
+#project_key{
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    height: 40px;
+    font-size: 16px;
+    color: #595959;
+    padding: 15px;
+}
+
+.heatclix-label{
+    margin-bottom: 30px;
+}
+
+.heatclix-label label{
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.heatclix-content-info-container h1{
+    color: #595959;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.heatclix-content-share-container{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 0.7% 2%;
+    width: 26%;
+    position: relative;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.heatclix-content-share-container h2{
+    color: #595959;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.heatclix-content-info-div p{
+    color: #595959;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.heatclix-btn-container{
+    text-align: center;
+}
+
+#heatclix-fb,
+#heatclix-tw,
+#heatclix-in{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-size: 70px 70px;
+    border: none;
+}
+
+.heatclix-content-share-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heatclix-info-btn{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#heatclix-info-btn2{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+@media (min-width: 1600px) AND (max-width: 1919px){
+    .heatclix-content-info-container {
+        margin-bottom: 15px;
+    }
+    .heatclix-content-share-container {
+        padding: 0 2%;
+    }
+    #heatclix-info-btn{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1440px) AND (max-width: 1599px){
+    .heatclix-content-info-container {
+        margin-bottom: 15px;
+    }
+
+    .heatclix-content-info-div p {
+        font-size: 15px;
+    }
+
+    .heatclix-content-share-container {
+        padding: 0 2%;
+    }
+
+}
+
+@media (min-width: 1280px) AND (max-width: 1439px){
+    .heatclix-content-info-container {
+        margin-bottom: 15px;
+    }
+
+    .heatclix-content-info-div p {
+        font-size: 15px;
+    }
+
+    .heatclix-content-share-container {
+        padding: 0 2%;
+    }
+
+    #heatclix-info-btn{
+        margin-bottom: 0;
+    }
+
+    #heatclix-info-text{
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 768px) AND (max-width: 1279px){
+    .heatclix-headline-container {
+        width: 95%;
+    }
+    .heatclix-content-tracking-container {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .heatclix-content-info-container {
+        width: 95%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .heatclix-content-share-container {
+        width: 95%;
+        float: left;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 321px) AND (max-width: 767px){
+    .heatclix-headline-container {
+        width: 90%;
+    }
+
+    .heatclix-headline-img {
+        width: 120px;
+        height: auto;
+    }
+
+    .heatclix-div-headline h1 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+    .heatclix-headline-container {
+        min-height: 40px;
+    }
+
+    .heatclix-content-tracking-container {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .heatclix-content-info-container {
+        width: 95%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .heatclix-content-share-container {
+        width: 95%;
+        float: left;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 320px){
+    .heatclix-headline-container {
+        width: 90%;
+    }
+
+    .heatclix-headline-img {
+        width: 90px;
+        height: auto;
+        margin-top: 6px;
+    }
+
+    .heatclix-div-headline h1 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+    .heatclix-headline-container {
+        min-height: 40px;
+    }
+
+    .heatclix-content-tracking-container {
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    .heatclix-content-info-container {
+        width: 95%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .heatclix-content-share-container {
+        width: 95%;
+        float: left;
+        margin-bottom: 30px;
+    }
+}
